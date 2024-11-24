@@ -1,11 +1,33 @@
 import React from 'react'
+import Navbar from './components/Navbar'
+import LandingPage from './components/LandingPage'
+import Marquee from './components/Marquee'
+import About from './components/About'
+import Eyes from './components/Eyes'
+import Featured from './components/Featured'
+import Cards from './components/Cards'
+// import { motion } from "motion/react"
+
 
 function App() {
+  
   return (
-    <div>
-      
-    </div>
+
+
+
+    <div className='w-full min-h-screen bg-zinc-900 text-white'>
+     
+<Navbar/>
+<LandingPage/>
+<Marquee/>
+ <motion/>
+<About/>
+<Eyes/>
+<Featured/>
+<Cards/>
+</div>
   )
 }
 
 export default App
+
