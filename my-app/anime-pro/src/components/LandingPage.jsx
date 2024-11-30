@@ -1,16 +1,26 @@
+import { motion } from 'framer-motion';
 import React from 'react'
 // import { FaArrowUpLong } from "react-icons/fa6";
 
 function LandingPage() {
   return (
-    <div className='w-full h-1000px bg-zinc-900 pt-1 '>
+    // this locomotive scroll animation 
+
+    <div data-scroll data-scroll-section data-scroll-speed='-.3' className='w-full h-1000px bg-zinc-900 pt-1 '>
       <div className='textstructure mt-60 px-20'> 
 
         <div className='masker'></div>
         <h1 className='tracking-tighter  leading-[6.2vw] uppercase text-[7vw] font-[Founders_Grotesk]font-semibold'>We Create</h1>
 
 <div className='flex'>
-  <div  className='w-[10vw] h-[4.8vw] mt-8 relative -top-[1vw] bg-red-500'></div>
+
+   
+{/* this is the use of loco motive js // want to install jst watch ochi-wejo 2.3 */}
+  <motion.div
+   initial={{width:0}}
+    animate={{width:"10vw"}}
+     transition={{ease:[0.76, 0, 0.24, 1] , duration:2}}
+       className='w-[10vw] h-[4.8vw] mt-8 relative -top-[1vw] bg-red-500'></motion.div>
         <div className='masker'></div>
         <h1 className='tracking-tighter  leading-[6.2vw] uppercase text-[7vw] font-[Founders_Grotesk]font-semibold'>Eye Opening</h1>
 </div>
