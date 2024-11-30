@@ -21,8 +21,9 @@ function Eyes() {
     })
   return (
     <div className='eyes w-full h-screen overflow-hidden'>
+    {/* // this locomotive scroll animation  */}
 
-        <div className='w-full relative h-full bg-[url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg")] bg-cover bg-center'  >
+        <div data-scroll  data-scroll-speed='-.7' className=' w-full relative h-full bg-[url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg")] bg-cover bg-center'  >
         <div className='absolute flex gap-10   top-1/2 left-1/2 -translate-y-[50%] -translate-x-[50%]'>
         <div className='flex items-center justify-center w-[15vw] h-[15vw] bg-green-100 rounded-full '>
         <div className='relative  w-2/3 h-2/3 bg-zinc-900 rounded-full '>
