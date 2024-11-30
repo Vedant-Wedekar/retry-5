@@ -7,11 +7,15 @@ import Eyes from './components/Eyes'
 import Featured from './components/Featured'
 import Cards from './components/Cards'
 import Footer from './components/Footer'
-
+import LocomotiveScroll from 'locomotive-scroll';
 // import { motion } from "motion/react"
 
 
+
+
 function App() {
+
+  const locomotiveScroll = new LocomotiveScroll();
   return (
 
 
