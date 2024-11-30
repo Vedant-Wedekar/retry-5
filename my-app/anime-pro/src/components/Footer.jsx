@@ -21,7 +21,14 @@ function Footer() {
 
         </div>
         <div className='w-1/2'>
-        <h1 className='text-[7vw] uppercase leading-none -mb-7 '>PRESENTATION</h1>
+        <h1 className='text-[7vw] uppercase leading-none -mb-7 '>PRESENTATION
+            
+        </h1><div className='dets font-["Neue_Montreal"] mt-20'>
+            <a className='block text-xl font-light' href='#'>Facebook</a>
+            <a className='block text-xl font-light' href='#'>Instagram</a>
+            <a className='block text-xl font-light' href='#'>Twitter</a>
+            </div>
+
         </div>
         </div>
         );
