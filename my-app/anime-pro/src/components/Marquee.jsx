@@ -6,7 +6,12 @@ import React from 'react'
 
 function Marquee() {
   return (
-    <div className='w-full py-20 bg-[#004d43] rounded-tl-3xl rounded-tr-3xl '>
+    // this locomotive scroll animation 
+    <div 
+    data-scroll 
+    data-scroll-section
+    data-scroll-speed='.1' 
+    className='  w-full py-20 bg-[#004d43] rounded-tl-3xl rounded-tr-3xl '>
 
 
 
